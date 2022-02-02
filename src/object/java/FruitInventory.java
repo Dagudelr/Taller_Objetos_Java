@@ -22,13 +22,12 @@ public class FruitInventory extends Fruit{
     /**
      * It references the constructor of the class that inherits the attributes of the fruit class and initializes them and initializes its own attributes.
      * @param name Assigns a value to the name attribute that is inherited from the fruits class.
-     * @param averageHeight Assigns a value to the averageHeight attribute that is inherited from the fruits class.
      * @param colors Assigns a list to the colors attribute that is inherited from the fruits class.
      * @param price Assigns a value to the price attribute.
      * @param tax Assigns a value to the tax attribute.
      */
-    public FruitInventory(String name, Float averageHeight, ArrayList<String> colors,  Integer price, Integer tax){
-        super(name, averageHeight, colors);
+    public FruitInventory(String name, ArrayList<String> colors,  Integer price, Integer tax){
+        super(name, colors);
         this.price = price;
         this.tax = tax;
     }
