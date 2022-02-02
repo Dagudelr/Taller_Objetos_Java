@@ -24,15 +24,21 @@ public class FruitInventory extends Fruit{
      * @param name Assigns a value to the name attribute that is inherited from the fruits class.
      * @param averageHeight Assigns a value to the averageHeight attribute that is inherited from the fruits class.
      * @param colors Assigns a list to the colors attribute that is inherited from the fruits class.
-     * @param amount Assigns a value to the amount attribute.
      * @param price Assigns a value to the price attribute.
      * @param tax Assigns a value to the tax attribute.
      */
-    public FruitInventory(String name, Float averageHeight, ArrayList<String> colors, Integer amount, Integer price, Integer tax){
+    public FruitInventory(String name, Float averageHeight, ArrayList<String> colors,  Integer price, Integer tax){
         super(name, averageHeight, colors);
-        this.amount = amount;
         this.price = price;
         this.tax = tax;
+    }
+
+    /**
+     * It refers to the method that allows assigning to the private method amount.
+     * @param amount that will assign the value to the tribute amount.
+     */
+    public void setAmount(Integer amount) {
+        this.amount = amount;
     }
 
     /**

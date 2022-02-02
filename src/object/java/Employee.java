@@ -28,13 +28,11 @@ public class Employee extends Person{
      * @param dateBirth Refers to the birthday date attribute that is inherited from the Person class.
      * @param height Refers to the height attribute that is inherited from the Person class.
      * @param job Refers to the job attribute of the Employee class.
-     * @param salary Refers to the salary attribute of the Employee class.
      * @param employeeId Refers to the employeeId attribute of the Employee class
      */
-    public Employee(String gender, String name, String lastName1, String lastName2, Date dateBirth, Float height, String job, Integer salary, Integer employeeId){
+    public Employee(String gender, String name, String lastName1, String lastName2, Date dateBirth, Float height, String job, Integer employeeId){
         super(gender, name, lastName1, lastName2, dateBirth, height);
         this.job = job;
-        this.salary = salary;
         this.employeeId = employeeId;
     }
 
@@ -45,6 +43,14 @@ public class Employee extends Person{
     public String getJob() {
 
         return job;
+    }
+
+    /**
+     * The method refers to the salary attribute, allows you to assign a value to it.
+     * @param salary Refers to the salary attribute of the Employee class.
+     */
+    public void setSalary(Integer salary) {
+        this.salary = salary;
     }
 
     /**

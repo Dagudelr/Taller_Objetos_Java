@@ -24,12 +24,10 @@ public class Fruit {
     /**
      *Refers to the constructor of the class that initializes the attributes.
      * @param name It refers to the name of the fruit that is assigned when the class is instantiated.
-     * @param averageHeight It refers to the average height of the fruit that is assigned when the class is instantiated.
      * @param colors Refers to the list of fruit colors that is assigned when the class is instantiated.
      */
-    public Fruit(String name, Float averageHeight, ArrayList<String> colors) {
+    public Fruit(String name, ArrayList<String> colors) {
         this.name= name;
-        this.averageHeight = averageHeight;
         this.colors = colors;
     }
 
