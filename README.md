@@ -12,4 +12,4 @@
 Realice una clonación del código, no es necesario una ejecución del código para su revisión
 
 ## ¿Qué se realizo?
-Se realizo lo solicitado en el taller, agregando pequeños añadidos como conceptos de herencia y polimorfismos entre algunas clases.
+Se realizo lo solicitado en el taller, agregando pequeños añadidos como concepto de herencia entre algunas clases.
